@@ -108,7 +108,7 @@
   .flap > .envelope > .letter {
     bottom: 100px;
     transform: scale(1.5);
-    transition-delay: 1s;
+    transition-delay: 0.26s;
   }
   .flap > .heart {
     transform: rotate(90deg);
