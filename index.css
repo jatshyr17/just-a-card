@@ -61,7 +61,7 @@
     height: 80%;
     background: var(--primary);
     text-align: center;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
     box-shadow: 0 0 5px var(--shadow-color);
     padding: 20px 10px;
   }
