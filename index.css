@@ -40,7 +40,7 @@
     border-right: 150px solid transparent;
     border-left: 150px solid transparent;
     transform-origin: top;
-    transition: all 4s ease-in-out 3s;
+    transition: all 4s ease-in-out 1s;
   }
   .envelope-wrapper > .envelope::after {
     content: "";
@@ -61,7 +61,7 @@
     height: 80%;
     background: var(--primary);
     text-align: center;
-    transition: all 6s ease-in-out;
+    transition: all 8s ease-in-out;
     box-shadow: 0 0 5px var(--shadow-color);
     padding: 20px 10px;
   }
@@ -108,11 +108,11 @@
   .flap > .envelope > .letter {
     bottom: 100px;
     transform: scale(1.5);
-    transition-delay: 0.26s;
+    transition-delay: 0.5s;
   }
   .flap > .heart {
     transform: rotate(90deg);
-    transition-delay: 0.4s;
+    transition-delay: 0.5s ease-in-out 1.5s;
   }
   .container > .envelope-wrapper > .developed-by {
     position: absolute;
