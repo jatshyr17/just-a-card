@@ -40,7 +40,7 @@
     border-right: 150px solid transparent;
     border-left: 150px solid transparent;
     transform-origin: top;
-    transition: all 1s ease-in-out 2s;
+    transition: all 4s ease-in-out 3s;
   }
   .envelope-wrapper > .envelope::after {
     content: "";
@@ -61,7 +61,7 @@
     height: 80%;
     background: var(--primary);
     text-align: center;
-    transition: all 0.5s ease-in-out;
+    transition: all 6s ease-in-out;
     box-shadow: 0 0 5px var(--shadow-color);
     padding: 20px 10px;
   }
