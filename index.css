@@ -40,7 +40,7 @@
     border-right: 150px solid transparent;
     border-left: 150px solid transparent;
     transform-origin: top;
-    transition: all 1s ease-in-out 2s;
+    transition: all 7s ease-in-out 2s;
   }
   .envelope-wrapper > .envelope::after {
     content: "";
