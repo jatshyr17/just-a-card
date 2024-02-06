@@ -18,7 +18,7 @@ body{
   justify-content: center;
 }
 .container {
-  height: 120vh;
+  height: 100vh;
   display: grid;
   place-items: center;
 }
@@ -28,9 +28,9 @@ body{
 }
 .envelope-wrapper > .envelope {
   position: relative;
-  width: 400px;
-  height: 300px;
-  transform: scale(1.2);
+  width: 300px;
+  height: 230px;
+  
 }
 .envelope-wrapper > .envelope::before {
   content: "";
@@ -58,14 +58,14 @@ body{
   position: absolute;
   right: 20%;
   bottom: 0;
-  width: 60%;
-  height: 90%;
+  width: 54%;
+  height: 80%;
   background: var(--primary);
   text-align: center;
   transition: all 1s ease-in-out;
   box-shadow: 0 0 5px var(--shadow-color);
   padding: 20px 10px;
-  transform: scale(1.1);
+  
 }
 
 .envelope > .letter > .text {
